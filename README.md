@@ -171,13 +171,15 @@ https://github.com/user-attachments/assets/de378de3-4408-418c-a17c-a13f42982469
 * **시연 내용**: MicroBlaze CPU ➔ AXI4-Lite SPI IP ➔ SPI Slave(FPGA) 간 레지스터 읽기/쓰기(R/W) 및 FND/LED 데이터 출력 실시간 시연
 
 ---
+<br><br>
 
 ### 🎬 4.4 Demo Video (AXI4-Lite I2C)
 
 https://github.com/user-attachments/assets/227d7d05-222d-44a8-9e02-b8cad8c35f37
 
 * **시연 내용**: MicroBlaze CPU ➔ AXI4-Lite I2C IP ➔ I2C Slave(FPGA) 간 레지스터 읽기/쓰기(R/W) 및 FND/LED 데이터 출력 실시간 시연
-
+---
+<br><br>
 ## 🚨 5. TroubleShooting & Review
 
 ### 🚨 SW vs HW Start Pulse 생성 및 오동작 해결
