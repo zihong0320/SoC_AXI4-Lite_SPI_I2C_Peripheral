@@ -56,10 +56,10 @@
 ---
 
 ### 1.2 SPI (Serial Peripheral Interface)
-* **주요 특징**: Full-Duplex(양방향 동시 통신) 방식을 지원하는 동기식 시리얼 통신 프로토콜. `SCLK`, `MOSI`, `MISO`, `CS` 4개의 라인을 활용하여 고속 데이터 전달.
+* **주요 특징**: Full-Duplex 방식을 지원하는 동기식 시리얼 통신 프로토콜. `SCLK`, `MOSI`, `MISO`, `CS` 4개의 라인을 활용하여 고속 데이터 전달.
 
 ### 1.3 I2C (Inter-Integrated Circuit)
-* **주요 특징**: `SDA`(데이터), `SCL`(클럭) 2개의 신호선만을 이용한 반양방향(Half-Duplex) 동기식 시리얼 통신 프로토콜. 슬레이브 주소(Slave Address) 지정을 통해 다중 기기 제어 지원.
+* **주요 특징**: `SDA`(데이터), `SCL`(클럭) 2개의 신호선만을 이용한 Half-Duplex 동기식 시리얼 통신 프로토콜. 슬레이브 주소(Slave Address) 지정을 통해 다중 기기 제어 지원.
 
 ---
 
@@ -111,7 +111,7 @@
 
 ## 🛠️ 3. Implementation & Hardware Demo
 
-### 3.1 SPI Master & Slave FPGA 구현
+### 3.1 AXI4-Lite 기반 SPI Master & Slave FPGA 구현
 
 | Peripheral SPI Waveform / Logic | SPI Master & Slave FPGA 실물 구현 |
 | :---: | :---: |
@@ -124,7 +124,7 @@
 
 ---
 
-### 3.2 I2C Master & Slave FPGA 구현
+### 3.2 AXI4-Lite 기반 I2C Master & Slave FPGA 구현
 
 | Peripheral I2C Waveform / Logic | I2C Master & Slave FPGA 실물 구현 |
 | :---: | :---: |
@@ -163,6 +163,20 @@
   * `RX Data (Master)`: `0x00 ~ 0x3F`, `0x40 ~ 0xBF`, `0xC0 ~ 0xFF` 구간 검증
 
 ---
+
+### 🎬 4.3 Demo Video (AXI4-Lite SPI)
+
+https://github.com/user-attachments/assets/de378de3-4408-418c-a17c-a13f42982469
+
+* **시연 내용**: MicroBlaze CPU ➔ AXI4-Lite SPI IP ➔ SPI Slave(FPGA) 간 레지스터 읽기/쓰기(R/W) 및 FND/LED 데이터 출력 실시간 시연
+
+---
+
+### 🎬 4.4 Demo Video (AXI4-Lite I2C)
+
+https://github.com/user-attachments/assets/227d7d05-222d-44a8-9e02-b8cad8c35f37
+
+* **시연 내용**: MicroBlaze CPU ➔ AXI4-Lite I2C IP ➔ I2C Slave(FPGA) 간 레지스터 읽기/쓰기(R/W) 및 FND/LED 데이터 출력 실시간 시연
 
 ## 🚨 5. TroubleShooting & Review
 
