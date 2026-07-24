@@ -1,4 +1,4 @@
-# 💻 SoC AXI4-Lite SPI/I2C Peripheral & UVM Verification
+# 🖥️ SoC AXI4-Lite SPI/I2C Peripheral & UVM Verification
 
 > **SoC 기반 AXI4-Lite SPI 및 I2C 주변장치(Peripheral) 설계 & UVM 기반 기능 검증**  
 > MicroBlaze 프로세서 연동, AXI4-Lite 마스터-슬레이브 인터페이스 구현, 계층형 소프트웨어 아키텍처 적용 및 SystemVerilog UVM을 활용한 100% 커버리지 무작위 검증
