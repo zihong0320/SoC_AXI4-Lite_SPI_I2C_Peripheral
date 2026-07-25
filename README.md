@@ -8,9 +8,9 @@
 ## 📌 0. Summary
 
 ### 🎯 Overview
-- **AXI4-Lite Specification 분석 & IP 설계**: AXI4-Lite 버스 인터페이스 기반의 SPI/I2C Master IP 및 Slave Peripheral 설계
-- **계층형 소프트웨어 아키텍처 구현**: MicroBlaze CPU 상에서 동작하는 Application ➔ Driver ➔ HAL ➔ Hardware 구조의 모듈화 소프트웨어 설계
-- **UVM 기반 레벨 검증**: AXI4-Lite SPI Controller IP에 대한 UVM(Universal Verification Methodology) 랜덤 테스트 환경 구축 및 100% Coverage 달성
+- **AXI4-Lite Specification 분석 & IP 설계** : AXI4-Lite 버스 인터페이스 기반의 SPI/I2C Master IP 및 Slave Peripheral 설계
+- **계층형 소프트웨어 아키텍처 구현** : MicroBlaze CPU 상에서 동작하는 Application ➔ Driver ➔ HAL ➔ Hardware 구조의 모듈화 소프트웨어 설계
+- **UVM 기반 레벨 검증** : AXI4-Lite SPI Controller IP에 대한 UVM(Universal Verification Methodology) 랜덤 테스트 환경 구축 및 100% Coverage 달성
 
 ---
 
