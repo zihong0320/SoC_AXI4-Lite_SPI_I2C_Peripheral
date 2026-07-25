@@ -15,7 +15,7 @@
 ---
 
 ### 🛠 개발 환경 및 사용 기술
-* **Target Board**: Basys3 (Xilinx Artix-7), STM32
+* **Target Board**: Basys3 (Xilinx Artix-7), NUCLEO-64 STM32
 * **SoC Processor**: MicroBlaze
 * **Development Tools**: Vivado, Vitis, VS Code
 * **Languages**: SystemVerilog, Verilog HDL, C
