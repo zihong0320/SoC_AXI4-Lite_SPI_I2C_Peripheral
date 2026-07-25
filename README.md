@@ -46,7 +46,7 @@
 
 #### AXI vs AHB/APB 차이점
 * **AHB / APB Bus**: 하나의 주소/데이터 버스를 모든 Slave가 공유하는 방송(Broadcasting) 방식
-* **AXI**: 점대점(Point-to-Point) direct 인터페이스로 마스터가 타겟 Slave에 직접 연결하여 고속 전송 가능
+* **AXI**: Point-to-Point direct 인터페이스로 마스터가 타겟 Slave에 직접 연결하여 고속 전송 가능
 
 | AXI Read Transaction | AXI Write Transaction |
 | :---: | :---: |
