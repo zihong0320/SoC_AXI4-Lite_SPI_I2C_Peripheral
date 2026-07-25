@@ -105,7 +105,7 @@
 | AXI I2C Address Map | 계층형 소프트웨어 아키텍처 (Layered SW) |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/782b8ced-bb32-467b-b3d4-7d1981cd47bb" width="100%"/> | <img src="https://github.com/user-attachments/assets/b89cd7ec-306e-42de-98a7-16a6d14e3e74" width="100%"/> |
-| **I2C IP 제어를 위한 Memory Address Map 매핑** | **의존성 감소를 위한 Layered Software Structure** |
+| **I2C IP 제어를 위한 Memory Address Map 매핑** | **독립성를 위한 Layered Software Structure** |
 
 ---
 
