@@ -109,7 +109,7 @@
 
 ---
 
-## 🛠️ 3. Implementation & Hardware Demo
+## 🛠️ 3. Implementation & Hardware Mechanism
 
 ### 3.1 AXI4-Lite 기반 SPI Master & Slave FPGA 구현
 
@@ -118,7 +118,7 @@
 | <img src="https://github.com/user-attachments/assets/b4742501-3315-4a61-9981-63c6f6e87e36" width="100%"/> | <img src="https://github.com/user-attachments/assets/c65f7699-12cb-4d06-bd99-53efd3f3bfef" width="100%"/> |
 | **AXI4-Lite SPI Peripheral 타이밍 파형** | **Basys3 FPGA 기반 SPI Master & Slave 연동** |
 
-#### 🔄 SPI Master/Slave 동작 메커니즘
+#### 🔄 SPI Master/Slave 동작 Mechanism
 * **Write 동작**: Slave에 쓰고자 하는 8비트 데이터를 Master 스위치로 입력 ➔ Start 버튼 클릭 ➔ Write 수행 (Slave의 FND 및 LED에 데이터 즉시 출력)
 * **Read 동작**: Master가 읽어올 8비트 데이터를 Slave 스위치로 입력 ➔ Start 버튼 클릭 ➔ Read 수행 (Master의 FND 및 LED에 읽어온 데이터 출력)
 
