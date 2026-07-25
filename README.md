@@ -37,16 +37,16 @@
   * **Valid-Ready Handshake**: 모든 채널은 `VALID`와 `READY` 신호의 상호 확인을 통해 신뢰성 있는 데이터 이동 보장
   * **Point-to-Point 통신**: 공유 버스(Shared Bus) 형태가 아닌 마스터-슬레이브 간 점대점 직접 연결 방식으로 데이터 병목 최소화
 
-#### 5대 채널 구조 (Channel)
-1. **Write Address Channel (AW)**: 쓰기 주소 및 제어 신호 전달
-2. **Write Data Channel (W)**: 실제 쓰기 데이터 전송
-3. **Write Response Channel (B)**: 쓰기 작업 완료 상태 및 응답(ACK) 수신
-4. **Read Address Channel (AR)**: 읽기 주소 및 제어 신호 전달
-5. **Read Data Channel (R)**: 읽기 데이터 및 읽기 상태 응답 수신
+* #### 5대 채널 구조 (Channel)
+  1. **Write Address Channel (AW)**: 쓰기 주소 및 제어 신호 전달
+  2. **Write Data Channel (W)**: 실제 쓰기 데이터 전송
+  3. **Write Response Channel (B)**: 쓰기 작업 완료 상태 및 응답(ACK) 수신
+  4. **Read Address Channel (AR)**: 읽기 주소 및 제어 신호 전달
+  5. **Read Data Channel (R)**: 읽기 데이터 및 읽기 상태 응답 수신
 
-#### AXI vs AHB/APB 차이점
-* **AHB / APB Bus**: 하나의 주소/데이터 버스를 모든 Slave가 공유하는 방송(Broadcasting) 방식
-* **AXI**: Point-to-Point direct 인터페이스로 마스터가 타겟 Slave에 직접 연결하여 고속 전송 가능
+* #### AXI vs AHB/APB 차이점
+  * **AHB / APB Bus**: 하나의 주소/데이터 버스를 모든 Slave가 공유하는 방송(Broadcasting) 방식
+  * **AXI**: Point-to-Point direct 인터페이스로 마스터가 타겟 Slave에 직접 연결하여 고속 전송 가능
 
 | AXI Read Transaction | AXI Write Transaction |
 | :---: | :---: |
@@ -187,7 +187,7 @@ https://github.com/user-attachments/assets/227d7d05-222d-44a8-9e02-b8cad8c35f37
 * **해결 방법**:
   1. 소프트웨어 제어 방식에서 HW 내부에 Start Pulse 생성 로직을 직접 구현하는 방식으로 구조 변경.
   2. HW 로직 타이밍 보완을 통해 Read 동작의 안정성 확보.
-* **고찰 및 교훈**:
+* **고찰**:
   * 프로젝트 진행 중 이미 완성된 코드를 HW 방식으로 재설계하는 과정에서 "과연 하드웨어 타이밍 보완이 맞는지"에 대한 구조적 고민을 깊게 경험.
   * 초기에 SoC 및 계층형 소프트웨어 아키텍처(Application-Driver-HAL) 개념이 미숙하여 하드웨어/소프트웨어 간의 각 역할을 명확히 정의하지 못했던 아쉬움이 남음.
   * 이 경험을 통해 SoC 시스템 구축 시 **Hardware/Software Co-design** 단계에서 타이밍 크리티컬한 신호 처리 위치를 명확히 정하는 설계 전략의 중요성을 깨달음.
