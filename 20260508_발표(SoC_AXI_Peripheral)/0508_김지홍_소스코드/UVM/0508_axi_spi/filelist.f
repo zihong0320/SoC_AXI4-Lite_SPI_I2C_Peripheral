@@ -1,0 +1,13 @@
+./rtl/SPI_v1_0_S00_AXI.v
+./rtl/SPI_v1_0.v
+./tb/spi_axi_agent.sv
+./tb/spi_axi_coverage.sv
+./tb/spi_axi_driver.sv
+./tb/spi_axi_env.sv
+./tb/spi_axi_interface.sv
+./tb/spi_axi_monitor.sv
+./tb/spi_axi_scoreboard.sv
+./tb/spi_axi_seq_item.sv
+./tb/spi_axi_sequence.sv
+./tb/spi_axi_test.sv
+./tb/tb_spi_axi.sv
