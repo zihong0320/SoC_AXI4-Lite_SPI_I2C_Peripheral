@@ -68,7 +68,8 @@
 ### 2.1 AXI4-Lite 기반 SPI Peripheral Hardware Architecture (Basys3)
 
 <p align="center">
-  <img width="85%" alt="SPI Hardware Block Diagram" src="https://github.com/user-attachments/assets/f15cf5b2-4cd8-40a8-bd7c-7c0285e9b18f" /><br>
+  <img width="85%" alt="image" src="https://github.com/user-attachments/assets/5acdbcc3-e1f0-47c6-9e86-117d33b5edbc" />
+<br>
   <b>[ AXI4-Lite 기반 SPI Peripheral Hardware Block Diagram ]</b>
 </p>
 
@@ -90,7 +91,7 @@
 ### 2.3 AXI4-Lite 기반 I2C Peripheral Hardware Architecture (Basys3)
 
 <p align="center">
-  <img width="85%" alt="I2C Hardware Block Diagram" src="https://github.com/user-attachments/assets/9e963825-b7ad-46c3-acad-c012dd17c18d" /><br>
+  <img width="85%" alt="image" src="https://github.com/user-attachments/assets/1e81d135-8186-45aa-8773-58ed9ea5b50b" /><br>
   <b>[ AXI4-Lite 기반 I2C Peripheral Hardware Block Diagram ]</b>
 </p>
 
