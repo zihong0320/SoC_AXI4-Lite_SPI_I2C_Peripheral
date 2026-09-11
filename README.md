@@ -115,7 +115,8 @@
 
 | Peripheral SPI Logic | SPI Master & Slave FPGA 실물 구현 |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/b4742501-3315-4a61-9981-63c6f6e87e36" width="100%"/> | <img src="https://github.com/user-attachments/assets/c65f7699-12cb-4d06-bd99-53efd3f3bfef" width="100%"/> |
+| <img width="1212" height="421" alt="image" src="https://github.com/user-attachments/assets/219d446a-9ea0-4765-b9bd-029b5cf4c91a" />
+ | <img src="https://github.com/user-attachments/assets/c65f7699-12cb-4d06-bd99-53efd3f3bfef" width="100%"/> |
 | **AXI4-Lite SPI Peripheral 전체 구조** | **Basys3(FPGA) 기반 SPI Master & Slave 연동** |
 
 #### 🔄 SPI Master/Slave 동작 Mechanism
