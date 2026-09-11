@@ -128,7 +128,7 @@
 
 | Peripheral I2C Logic | I2C Master & Slave FPGA 실물 구현 |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/22b7a12c-4597-4a82-86ec-b332156c6d82" width="100%"/> | <img src="https://github.com/user-attachments/assets/3b8673e9-49c6-417a-85c0-892f93666a47" width="100%"/> |
+| <img src="https://github.com/user-attachments/assets/3c8abe10-c284-4900-8c24-290d6b778f50" width="100%"/> | <img src="https://github.com/user-attachments/assets/3b8673e9-49c6-417a-85c0-892f93666a47" width="100%"/> |
 | **AXI4-Lite I2C Peripheral 전체 구조** | **Basys3 FPGA 기반 I2C Master & Slave 연동** |
 
 #### 🔄 I2C Master/Slave 동작 메커니즘
